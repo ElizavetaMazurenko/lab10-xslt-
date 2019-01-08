@@ -1,0 +1,882 @@
+Started GET "/" for 127.0.0.1 at 2019-01-07 16:33:27 +0300
+Processing by XmlController#input as HTML
+Completed 406 Not Acceptable in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:18:in `input'
+Started GET "/" for 127.0.0.1 at 2019-01-07 16:33:29 +0300
+Processing by XmlController#input as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:18:in `input'
+Started GET "/" for 127.0.0.1 at 2019-01-07 16:34:41 +0300
+Processing by XmlController#input as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:18:in `input'
+Started GET "/" for 127.0.0.1 at 2019-01-07 16:34:42 +0300
+Processing by XmlController#input as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/xml_controller.rb:18:in `input'
+Started GET "/?num=100&format=xml" for 127.0.0.1 at 2019-01-07 16:37:40 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"100"}
+Completed 200 OK in 36ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=100&format=rss" for 127.0.0.1 at 2019-01-07 16:37:57 +0300
+Processing by XmlController#input as RSS
+  Parameters: {"num"=>"100"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=100&format=xml" for 127.0.0.1 at 2019-01-07 16:38:48 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"100"}
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:39:46 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:41:05 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:41:32 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:41:36 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:42:09 +0300
+Processing by XmlController#input as XML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for nil:NilClass):
+  
+app/controllers/xml_controller.rb:8:in `input'
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:42:31 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml" for 127.0.0.1 at 2019-01-07 16:43:27 +0300
+Processing by XmlController#input as XML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=fggfg&format=xml" for 127.0.0.1 at 2019-01-07 16:43:36 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"fggfg"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=08&format=xml" for 127.0.0.1 at 2019-01-07 16:43:58 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"08"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=08&format=xml" for 127.0.0.1 at 2019-01-07 16:44:03 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"08"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=8&format=xml" for 127.0.0.1 at 2019-01-07 16:44:06 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=8&format=xml" for 127.0.0.1 at 2019-01-07 16:44:19 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=08&format=xml" for 127.0.0.1 at 2019-01-07 16:44:31 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"08"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=gfgf&format=xml" for 127.0.0.1 at 2019-01-07 16:44:36 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"gfgf"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4444&format=xml" for 127.0.0.1 at 2019-01-07 16:52:21 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4444&format=json" for 127.0.0.1 at 2019-01-07 16:56:47 +0300
+  
+SyntaxError (/home/liza/Ruby/lab10xslt/app/controllers/xml_controller.rb:22: syntax error, unexpected keyword_end, expecting '}'
+ 	 end
+ 	 ^~~
+/home/liza/Ruby/lab10xslt/app/controllers/xml_controller.rb:36: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/xml_controller.rb:22: syntax error, unexpected keyword_end, expecting '}'
+app/controllers/xml_controller.rb:36: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/?num=4444&format=json" for 127.0.0.1 at 2019-01-07 16:57:08 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4444&format=json" for 127.0.0.1 at 2019-01-07 16:58:03 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4444&format=xml" for 127.0.0.1 at 2019-01-07 19:10:12 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=444&format=xml" for 127.0.0.1 at 2019-01-07 19:10:19 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"444"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=444&format=json" for 127.0.0.1 at 2019-01-07 19:10:23 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"444"}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=444&format=json" for 127.0.0.1 at 2019-01-08 01:30:23 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"444"}
+Completed 200 OK in 14ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=444&format=xml" for 127.0.0.1 at 2019-01-08 01:30:27 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"444"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=44904&format=xml" for 127.0.0.1 at 2019-01-08 01:30:32 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44904"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4490004&format=xml" for 127.0.0.1 at 2019-01-08 01:30:45 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4490004"}
+Completed 200 OK in 4593ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4444&format=xml" for 127.0.0.1 at 2019-01-08 01:36:42 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4490004&format=xml" for 127.0.0.1 at 2019-01-08 02:11:08 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4490004"}
+Completed 200 OK in 4370ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4490004&format=json" for 127.0.0.1 at 2019-01-08 02:11:18 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"4490004"}
+Completed 200 OK in 4228ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:11:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:11:38 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:11:49 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:12:12 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:14:08 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:14:14 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 02:15:14 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:22 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:28 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:28 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:37 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 29ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:15:37 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 26ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:16:17 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:16:17 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:09 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:09 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:46 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:46 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:50 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:17:50 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:19:54 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:21:52 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:21:55 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:22:45 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:23:47 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:25:51 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:26:54 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:27:06 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 36ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:30:31 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:30:40 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=5656" for 127.0.0.1 at 2019-01-08 02:36:23 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"5656"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=4444" for 127.0.0.1 at 2019-01-08 02:40:25 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=4444" for 127.0.0.1 at 2019-01-08 02:40:30 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"4444"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:40:37 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:48:16 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:48:56 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 46ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:49:07 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 48ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:23 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 77ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:23 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 43ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:27 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 46ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:27 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:35 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:50:35 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:51:18 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 43ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:51:23 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:52:17 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 52ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:52:17 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 82ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:52:38 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 46ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:52:42 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 47ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:53:34 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 46ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:54:03 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:54:06 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 47ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:55:25 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 44ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:55:29 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 43ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:55:32 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:55:36 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 84ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:15 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:15 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 42ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:35 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:56:35 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:57:00 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 44ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 02:57:46 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 42ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 03:38:33 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 85ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=44444" for 127.0.0.1 at 2019-01-08 03:38:45 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"44444"}
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:38:54 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:38:57 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:39:01 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:39:05 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:44:25 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:44:25 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:44:34 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:44:38 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=50" for 127.0.0.1 at 2019-01-08 03:44:40 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"50"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:44:48 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:44:51 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:44:54 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:44:59 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:45:05 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=767" for 127.0.0.1 at 2019-01-08 03:45:08 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"767"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=3334" for 127.0.0.1 at 2019-01-08 03:47:41 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"3334"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=3334" for 127.0.0.1 at 2019-01-08 03:47:45 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"3334"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=3334" for 127.0.0.1 at 2019-01-08 03:47:49 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"3334"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=67676767" for 127.0.0.1 at 2019-01-08 03:47:56 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"67676767"}
+Started GET "/?format=xml&num=200000" for 127.0.0.1 at 2019-01-08 03:48:54 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"200000"}
+Completed 200 OK in 299ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=67676767" for 127.0.0.1 at 2019-01-08 03:48:57 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"67676767"}
+Completed 200 OK in 70371ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=200000" for 127.0.0.1 at 2019-01-08 03:49:10 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"200000"}
+Completed 200 OK in 295ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=200000" for 127.0.0.1 at 2019-01-08 03:49:25 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"200000"}
+Completed 200 OK in 298ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=2000000" for 127.0.0.1 at 2019-01-08 03:49:50 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"2000000"}
+Completed 200 OK in 3972ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=2000000" for 127.0.0.1 at 2019-01-08 03:50:01 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"2000000"}
+Completed 200 OK in 3777ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 75359ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=2000000" for 127.0.0.1 at 2019-01-08 04:18:27 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"2000000"}
+Completed 200 OK in 2075ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:18:36 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:18:39 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:18:48 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:18:52 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:18:58 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:19:02 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:19:07 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:19:11 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:19:15 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:20:30 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 30ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:20:34 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 30ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:21:14 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 17ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:21:20 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?format=xml&num=8787" for 127.0.0.1 at 2019-01-08 04:21:23 +0300
+Processing by XmlController#input as XML
+  Parameters: {"num"=>"8787"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=4490004&format=json" for 127.0.0.1 at 2019-01-08 04:21:40 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"4490004"}
+Completed 200 OK in 4479ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?num=440004&format=json" for 127.0.0.1 at 2019-01-08 04:21:47 +0300
+Processing by XmlController#input as JSON
+  Parameters: {"num"=>"440004"}
+Completed 200 OK in 422ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+

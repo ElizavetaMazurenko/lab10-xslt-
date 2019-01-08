@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href = "transform.xslt"?>
+
+<objects type="array">
+  <object>
+    <elem type="integer">0</elem>
+    <square type="integer">0</square>
+  </object>
+  <object>
+    <elem type="integer">1</elem>
+    <square type="integer">1</square>
+  </object>
+  <object>
+    <elem type="integer">2</elem>
+    <square type="integer">4</square>
+  </object>
+  <object>
+    <elem type="integer">3</elem>
+    <square type="integer">9</square>
+  </object>
+  <object>
+    <elem type="integer">11</elem>
+    <square type="integer">121</square>
+  </object>
+  <object>
+    <elem type="integer">22</elem>
+    <square type="integer">484</square>
+  </object>
+  <object>
+    <elem type="integer">101</elem>
+    <square type="integer">10201</square>
+  </object>
+  <object>
+    <elem type="integer">111</elem>
+    <square type="integer">12321</square>
+  </object>
+  <object>
+    <elem type="integer">121</elem>
+    <square type="integer">14641</square>
+  </object>
+  <object>
+    <elem type="integer">202</elem>
+    <square type="integer">40804</square>
+  </object>
+  <object>
+    <elem type="integer">212</elem>
+    <square type="integer">44944</square>
+  </object>
+  <object>
+    <elem type="integer">1001</elem>
+    <square type="integer">1002001</square>
+  </object>
+  <object>
+    <elem type="integer">1111</elem>
+    <square type="integer">1234321</square>
+  </object>
+  <object>
+    <elem type="integer">2002</elem>
+    <square type="integer">4008004</square>
+  </object>
+</objects>
