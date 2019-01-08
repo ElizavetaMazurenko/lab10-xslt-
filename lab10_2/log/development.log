@@ -1,0 +1,1217 @@
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:36:55 +0300
+  
+SyntaxError (/home/liza/Ruby/lab10_2/app/controllers/proxy_controller.rb:31: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/proxy_controller.rb:31: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:37:48 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 2427ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "@import ": expected file to import (string or url()), was "“bootstrap”"):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/lo.scss:1
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3366164172850348118_41963300'
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:41:28 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5982ms (Views: 5981.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 01:41:43 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/proxy_controller.rb:25:in `prepare_url'
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:42:59 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:44:01 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:44:20 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:45:17 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:45:24 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:45:38 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:45:54 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:45:57 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:46:03 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:46:25 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 01:46:27 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/proxy_controller.rb:25:in `prepare_url'
+Started GET "/" for 127.0.0.1 at 2019-01-08 01:46:38 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 01:46:44 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/proxy_controller.rb:25:in `prepare_url'
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:11:30 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:11:33 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 31ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:11:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:11:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:12:12 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:14:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:14:08 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:14:14 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.3ms)
+  Rendered proxy/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:14 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:22 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:28 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:28 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:33 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:33 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:37 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:15:37 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:16:15 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:16:17 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:16:17 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:17:07 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:09 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:09 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:17:45 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:46 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 19ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:46 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:50 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:17:50 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:19:53 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:19:54 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (wrong argument type String (expected Data)):
+  
+app/controllers/proxy_controller.rb:28:in `new'
+app/controllers/proxy_controller.rb:28:in `xslt_browzer_transform'
+app/controllers/proxy_controller.rb:15:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:21:52 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt" for 127.0.0.1 at 2019-01-08 02:21:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:21:55 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt" for 127.0.0.1 at 2019-01-08 02:21:55 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:22:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:22:45 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt" for 127.0.0.1 at 2019-01-08 02:22:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/liza/Ruby/lab10_2/public/browzer_transform.xslt"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:23:45 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:23:47 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:25:51 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:26:54 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:27:06 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:30:30 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:30:31 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/browzer_transform.xslt" for 127.0.0.1 at 2019-01-08 02:30:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/browzer_transform.xslt"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:30:39 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:30:40 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=5656&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:36:23 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"5656", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=4444&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:40:25 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"4444", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=4444&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:40:30 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"4444", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 49ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:40:37 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 88ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:48:16 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 50ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:48:56 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/browzer_transform.xslt" for 127.0.0.1 at 2019-01-08 02:48:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/browzer_transform.xslt"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:49:06 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:49:07 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 54ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:50:22 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:23 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 81ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:23 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 47ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:27 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 51ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:27 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 56ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:35 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 55ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:50:35 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 57ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:51:18 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:51:23 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:52:15 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:52:17 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 58ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:52:17 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 86ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:52:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 50ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:52:42 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 53ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:53:33 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:53:34 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 83ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:54:03 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 80ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:54:06 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 79ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:55:25 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:55:29 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:55:32 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 76ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:55:36 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 88ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:56:14 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:15 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:15 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 54ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:33 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:33 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 50ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:35 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 59ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:56:35 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 54ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 02:56:58 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:57:00 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 75ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 02:57:46 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `transform' for #<Nokogiri::XML::ProcessingInstruction:0x00007fb53cf99db0>):
+  
+app/controllers/proxy_controller.rb:31:in `xslt_browzer_transform'
+app/controllers/proxy_controller.rb:15:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:38:33 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `transform' for #<Nokogiri::XML::ProcessingInstruction:0x00007fb5358e7d20>):
+  
+app/controllers/proxy_controller.rb:31:in `xslt_browzer_transform'
+app/controllers/proxy_controller.rb:15:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=44444&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:38:45 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"44444", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.3ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 84ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 03:38:50 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:38:54 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:38:57 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:39:01 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:39:05 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 03:39:35 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 03:44:24 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:25 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:25 +0300
+Processing by ProxyController#output as */*
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:34 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:38 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=50&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:40 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"50", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:48 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:51 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:54 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.3ms)
+  Rendered proxy/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:44:59 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:45:05 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=767&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:45:08 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"767", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 03:47:37 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=3334&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:47:41 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"3334", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=3334&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:47:45 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"3334", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=3334&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:47:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"3334", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 16ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=67676767&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:47:56 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"67676767", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+Started GET "/" for 127.0.0.1 at 2019-01-08 03:48:44 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=200000&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:48:53 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"200000", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 2496ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=200000&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:49:09 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"200000", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1947ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=200000&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:49:24 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"200000", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 2205ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=2000000&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:49:49 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"2000000", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.5ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6764ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 120073ms (ActiveRecord: 0.0ms)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout):
+  
+app/controllers/proxy_controller.rb:12:in `output'
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=2000000&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 03:50:01 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"2000000", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 5715ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=2000000&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:27 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"2000000", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 2100ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-08 04:18:31 +0300
+Processing by ProxyController#input as HTML
+  Rendering proxy/input.html.erb within layouts/application
+  Rendered proxy/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=xml&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:36 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"xml", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:39 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.3ms)
+  Rendered proxy/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:48 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:52 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:18:58 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:19:02 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.3ms)
+  Rendered proxy/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:19:07 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:19:11 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.4ms)
+  Rendered proxy/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 44ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:19:15 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 20ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:20:30 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 35ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:20:34 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 66ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:21:14 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.6ms)
+  Rendered proxy/output.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 68ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=client-with-xslt&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:21:20 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"client-with-xslt", "commit"=>"Палиндромы с квадратами палиндромами"}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/proxy/output?utf8=%E2%9C%93&arr=8787&side=server&commit=%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D1%8B+%D1%81+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D0%BC%D0%B8+%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%D0%BC%D0%B8" for 127.0.0.1 at 2019-01-08 04:21:23 +0300
+Processing by ProxyController#output as HTML
+  Parameters: {"utf8"=>"✓", "arr"=>"8787", "side"=>"server", "commit"=>"Палиндромы с квадратами палиндромами"}
+  Rendering proxy/output.html.erb within layouts/application
+  Rendering inline template
+  Rendered inline template (0.2ms)
+  Rendered proxy/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+

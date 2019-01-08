@@ -1,0 +1,38 @@
+<p  style="font-size: 1.2em; text-align: center; background-color:#9ae5c9"> Написать программу, определяющую, сколько из чисел в диапазоне
+от 0 до n (n вводится с клавиатуры), сами являясь палиндромами, при
+возведении в квадрат, образуют палиндромы. Например: 22 → 484 . 
+Вывести на печать числа, квадраты и их количество. </p>
+
+
+<div style="font-size: 1.2em; text-align: center; background-color: #7272ff">
+
+<br>
+
+<%= form_tag "/proxy/output", method: 'get', id: 'poli_form' do %>
+
+   <label style= "font-weight: bold"> Введите число n </label>
+
+   <br>
+
+   <%= text_field_tag(:arr, "50") %>
+<!-- :cols => "2", :rows => "2", :style => "font-size: 1.2em" %> -->
+
+   <br>
+   <br>
+
+    <input type="radio" name="side" value="xml" id="xml">
+    выдать xml<br>
+
+    <input type="radio" name="side" value="server" id="server-side">
+    рендеринг на стороне сервера<br>
+
+    <input type="radio" name="side" value="client-with-xslt" id="client-side-xslt">
+    рендеринг на стороне браузера с xslt<br>
+    <br>
+   
+
+   <%= submit_tag 'Палиндромы с квадратами палиндромами' %>
+   <br><br>
+
+<% end %>
+</div>
